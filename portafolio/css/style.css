@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+
+body{
+    background: #1a1a1a;
+}
+
+section{
+    width: 90%;
+    max-width: 1600px;
+    height: 630px;
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+}
+
+/* display: Esta propiedad define el tipo de cuadro de visualización utilizado para
+ el elemento, como un bloque, en línea o en línea de nivel de bloque.   */
+
+/* flex: alinea dos elementos en el eje x y en el eje y. En este caso alinea las dos columnas*/
+#fila{
+    width: 100%;
+    display: flex;
+}
+
+#foto{
+    width: 38%;
+}
+
+#info{
+    width: 65%;
+    padding-left: 18px;
+    padding-right: 18px;
+
+
+}
+
+#info h2{
+    color: #00f29e;
+    font-size: 30px;
+    font-weight: 250px; 
+    font-family: 'Fugaz One', cursive;
+    margin: 0;
+}
+
+#info h1{
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    font-family:'Fugaz One', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#info #detalle{
+    width: 160px;
+    height: 4x;
+    background: #00f29e;
+    margin-bottom: 40px;
+}
+
+#info p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    padding-right: 18px;
+}
+
+#info article{
+    border: 4px solid #00f29e;
+    width: 97%;
+}
+
+article ul li{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+#info #redes {
+    margin-top: 25px;
+}
+
+#info #redes a{
+    margin: 10px 10px;
+   
+}
